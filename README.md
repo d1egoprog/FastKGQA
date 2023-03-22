@@ -10,7 +10,7 @@ The High level view of the proposed framework.
 
 ## Dataset
 
-The [MovieQA](ttps://metatext.io/datasets/movieqa) (a.k.a WikiMovies) dataset is a question-answering pair dataset built by Wikipedia that includes the raw source text and the corresponding KB framed in the movies domain. The original triple KB has been modified to ensure proper processing by our framework, extracting individual (S,P,O); as shown in the Figure, each original triple is split into as many triples as there are tail entities.
+The [MovieQA](https://metatext.io/datasets/movieqa) (a.k.a WikiMovies) dataset is a question-answering pair dataset built by Wikipedia that includes the raw source text and the corresponding KB framed in the movies domain. The original triple KB has been modified to ensure proper processing by our framework, extracting individual (S,P,O); as shown in the Figure, each original triple is split into as many triples as there are tail entities.
 
 <p align="center">
   <img src="https://github.com/d1egoprog/FastKGQA/blob/main/images/modifiedtriples.png?raw=true" alt="Splitted Triples"/>
@@ -18,19 +18,21 @@ The [MovieQA](ttps://metatext.io/datasets/movieqa) (a.k.a WikiMovies) dataset is
 
 ## Citations 
 
-If this work is with your interest you can read the presented [paper]() and if you use it in your research please don't forget to cite 👍 this work, the suggested citation in BibTex format is:
+If this work is with your interest you can read the presented [paper](https://doi.org/10.3390/info14030186) and if you use it in your research please don't forget to cite 👍 this work, the suggested citation in BibTex format is:
 
 ``` BibTex
-@article{Di-Paolo2023,
-  title={A quick prototype for assessing OpenIE Knowledge Graph-based question-answering systems},
-  author = {Di-Paolo, Giuseppina and Rincon-Yanez, Diego and Senatore, Sabrina},
-  journal={TBD},
-  volume={TBD},
-  number={TBD},
-  pages={17},
-  year={2023},
-  doi = {TBD},
-  publisher={TBD}
+@article{DiPaolo2023,
+author = {{Di Paolo}, Giuseppina and Rincon-Yanez, Diego and Senatore, Sabrina},
+doi = {10.3390/info14030186},
+issn = {2078-2489},
+journal = {Information},
+month = {mar},
+number = {3},
+pages = {186},
+title = {{A Quick Prototype for Assessing OpenIE Knowledge Graph-Based Question-Answering Systems}},
+url = {https://www.mdpi.com/2078-2489/14/3/186},
+volume = {14},
+year = {2023}
 }
 ```
 
